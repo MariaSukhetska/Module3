@@ -1,4 +1,4 @@
-package org.example.libruary;
+package org.example.library;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

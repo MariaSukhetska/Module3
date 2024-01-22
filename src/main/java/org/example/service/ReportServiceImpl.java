@@ -1,7 +1,7 @@
 package org.example.service;
 
-import org.example.libruary.Inject;
-import org.example.libruary.Service;
+import org.example.library.Inject;
+import org.example.library.Service;
 import org.example.model.Operation;
 import org.example.model.Report;
 import org.example.model.User;

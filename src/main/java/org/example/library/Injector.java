@@ -1,4 +1,4 @@
-package org.example.libruary;
+package org.example.library;
 
 import java.io.File;
 import java.io.IOException;

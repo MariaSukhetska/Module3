@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.libruary.Injector;
+import org.example.library.Injector;
 import org.example.model.*;
 import org.example.service.*;
 import java.math.BigDecimal;
@@ -41,13 +41,11 @@ public class Main {
         expenseOperation.setAccount(account);
         operationService.add(expenseOperation);
 
-
         List<Operation> accountOperations = operationService.findOperationsByAccount(account);
         System.out.println("Transactions for the account '" + account.getName() + "':");
        for (Operation op : accountOperations) {
            System.out.println(op);
         }
-
 
         ReportService reportService = (ReportService) injector.getInstance(ReportService.class);
         LocalDate fromDate = LocalDate.now().minusDays(7);

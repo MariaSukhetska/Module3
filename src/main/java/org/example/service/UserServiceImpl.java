@@ -1,8 +1,8 @@
 package org.example.service;
 
 import org.example.dao.UserDao;
-import org.example.libruary.Inject;
-import org.example.libruary.Service;
+import org.example.library.Inject;
+import org.example.library.Service;
 import org.example.model.User;
 import java.util.Optional;
 

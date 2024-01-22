@@ -1,7 +1,7 @@
 package org.example.dao;
 
 import org.example.exception.DataProcessingException;
-import org.example.libruary.Dao;
+import org.example.library.Dao;
 import org.example.model.User;
 import org.example.util.HibernateUtil;
 import org.hibernate.Session;

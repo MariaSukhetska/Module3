@@ -1,7 +1,7 @@
 package org.example.dao;
 
 import org.example.exception.DataProcessingException;
-import org.example.libruary.Dao;
+import org.example.library.Dao;
 import org.example.model.Account;
 import org.example.model.Operation;
 import org.example.model.User;
